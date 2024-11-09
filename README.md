@@ -39,13 +39,6 @@ A robust authentication system built with Django, featuring social login integra
 - django-turnstile
 - python-dotenv
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 5
-- Font Awesome
-
 ### Security
 - Cloudflare Turnstile
 - Django Security Middleware
