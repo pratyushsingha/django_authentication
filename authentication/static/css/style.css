@@ -1,0 +1,247 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.register-form {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+.page{
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 20px;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-login .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-google {
+    background-color: #db4a39;
+}
+
+.btn-twitter {
+    background-color: #1da1f2;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.recaptcha {
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.already-have-account {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.already-have-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+.already-have-account a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-facebook i {
+    margin-right: 10px;
+}
+
+.login-form {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dont-have-account {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dont-have-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.dont-have-account a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.social-login {
+    margin-bottom: 20px;
+}
+
+.social-login h4 {
+    margin-bottom: 20px;
+}
+
+.btn-google {
+    background-color: #db4a39;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-google:hover {
+    background-color: #c23321;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-twitter {
+    background-color: #1da1f2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-twitter:hover {
+    background-color: #1991da;
+    color: white;
+    text-decoration: none;
+}
+
+.messages {
+    margin-bottom: 20px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
